@@ -20,8 +20,8 @@
     ]
   },
   "browser_specific_settings": {
-    "firefox": {
-      "id": "05b06379-6fb1-4295-a6d3-76a63d80c760"
+    "gecko": {
+      "id": "{05b06379-6fb1-4295-a6d3-76a63d80c760}"
     }
   }
 }
