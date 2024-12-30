@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tab Restrictor Settings</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        input,
+        button {
+            margin: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tab Restrictor</h2>
+    <label for="tabLimit">Maximum Number of Tabs:</label>
+    <input type="number" id="tabLimit" min="1" max="50">
+    <button id="saveButton">Save</button>
+    <p id="status"></p>
+    <script src="popup.js"></script>
+</body>
+
+</html>
